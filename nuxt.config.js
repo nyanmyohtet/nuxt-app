@@ -49,7 +49,14 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-maintenance-mode',
   ],
+
+  maintenance: {
+    enabled: true, // If given truthy value, activation maintenance mode on startup your nuxt application.
+    path: '/maintenance', // maintenance fallback content routing.
+    // matcher: /^\/admin/ // Path to be in maintenance mode (regex).
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
