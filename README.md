@@ -1,5 +1,9 @@
 # nuxt-app
 
+## Requirement
+
+- NodeJS: 12.x
+
 ## Build Setup
 
 ```bash
@@ -15,6 +19,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# deploy to GitHub Pages
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
